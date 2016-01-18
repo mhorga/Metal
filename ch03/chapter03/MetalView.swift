@@ -20,7 +20,7 @@ class MetalView: MTKView {
         let vertex_data:[Float] = [-1.0, -1.0, 0.0, 1.0,
                                     1.0, -1.0, 0.0, 1.0,
                                     0.0,  1.0, 0.0, 1.0]
-        let data_size = vertex_data.count * sizeofValue(vertex_data[0])
+        let data_size = vertex_data.count * sizeof(Float)
         let vertex_buffer = device!.newBufferWithBytes(vertex_data, length: data_size, options: [])
         let library = device!.newDefaultLibrary()!
         let vertex_func = library.newFunctionWithName("vertex_func")

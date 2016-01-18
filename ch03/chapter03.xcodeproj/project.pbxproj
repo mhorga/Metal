@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294BD6211C4D1FD7009CF449 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294BD6201C4D1FD7009CF449 /* MetalView.swift */; };
 		29CB59901C4461EA0004DB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CB598F1C4461EA0004DB55 /* AppDelegate.swift */; };
 		29CB59941C4461EA0004DB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CB59931C4461EA0004DB55 /* Assets.xcassets */; };
 		29CB59971C4461EA0004DB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CB59951C4461EA0004DB55 /* Main.storyboard */; };
 		29CB599F1C44665B0004DB55 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 29CB599E1C44665B0004DB55 /* Shaders.metal */; };
-		29CB59A11C4478DC0004DB55 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CB59A01C4478DC0004DB55 /* MetalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		294BD6201C4D1FD7009CF449 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		29CB598C1C4461EA0004DB55 /* chapter03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chapter03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CB598F1C4461EA0004DB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29CB59931C4461EA0004DB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29CB59961C4461EA0004DB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29CB59981C4461EA0004DB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29CB599E1C44665B0004DB55 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
-		29CB59A01C4478DC0004DB55 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetalView.swift; path = Assets.xcassets/MetalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 		29CB598E1C4461EA0004DB55 /* chapter03 */ = {
 			isa = PBXGroup;
 			children = (
-				29CB59A01C4478DC0004DB55 /* MetalView.swift */,
+				294BD6201C4D1FD7009CF449 /* MetalView.swift */,
 				29CB599E1C44665B0004DB55 /* Shaders.metal */,
 				29CB59951C4461EA0004DB55 /* Main.storyboard */,
 				29CB59931C4461EA0004DB55 /* Assets.xcassets */,
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29CB59A11C4478DC0004DB55 /* MetalView.swift in Sources */,
+				294BD6211C4D1FD7009CF449 /* MetalView.swift in Sources */,
 				29CB599F1C44665B0004DB55 /* Shaders.metal in Sources */,
 				29CB59901C4461EA0004DB55 /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +277,7 @@
 				29CB599D1C4461EA0004DB55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

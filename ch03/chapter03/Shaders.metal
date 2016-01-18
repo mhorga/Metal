@@ -18,6 +18,5 @@ vertex Vertex vertex_func(constant Vertex *vertices [[buffer(0)]], uint vid [[ve
 }
 
 fragment float4 fragment_func(Vertex vert [[stage_in]]) {
-    // we hardcode a color here but we could have added a `color` struct member
     return float4(0.7, 1, 1, 1);
 }

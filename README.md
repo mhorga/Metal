@@ -11,3 +11,4 @@ Repository to accompany the following blog posts:
 - [Using MetalKit part 7](http://mhorga.org/2016/02/29/using-metalkit-part-7.html)
 - [Using MetalKit part 8](http://mhorga.org/2016/03/07/using-metalkit-part-8.html)
 - [Using MetalKit part 9](http://mhorga.org/2016/04/18/using-metalkit-part-9.html)
+- [Using MetalKit part 10](http://mhorga.org/2016/05/02/using-metalkit-part-10.html)
